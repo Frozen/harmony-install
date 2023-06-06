@@ -5,10 +5,11 @@ wget https://go.dev/dl/go1.19.9.linux-amd64.tar.gz
 tar xvzf go1.19.9.linux-amd64.tar.gz
 PATHGOBIN="${PWD}/go/bin"
 
-echo $PATHGOBIN >> ~/.profile
+echo "PATH=$PATH:$PATHGOBIN" >> ~/.profile
 . ~/.profile
 
 
+sudo apt install libgmp-dev  libssl-dev  make gcc g++ -y
 
 mkdir -p ./go/src/github.com/harmony-one
 cd ./go/src/github.com/harmony-one
