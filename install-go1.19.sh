@@ -9,6 +9,7 @@ echo "PATH=$PATH:$PATHGOBIN" >> ~/.profile
 . ~/.profile
 
 
+sudo apt update
 sudo apt install libgmp-dev  libssl-dev  make gcc g++ -y
 
 mkdir -p ./go/src/github.com/harmony-one
