@@ -5,7 +5,7 @@ wget https://go.dev/dl/go1.19.9.linux-amd64.tar.gz
 tar xvzf go1.19.9.linux-amd64.tar.gz
 PATHGOBIN="${PWD}/go/bin"
 
-echo "PATH=$PATH:$PATHGOBIN" >> ~/.profile
+echo "\"PATH=$PATH:$PATHGOBIN\"" >> ~/.profile
 . ~/.profile
 
 
