@@ -17,6 +17,7 @@ cd ./go/src/github.com/harmony-one
 git clone https://github.com/harmony-one/mcl.git
 git clone https://github.com/harmony-one/bls.git
 git clone https://github.com/harmony-one/harmony.git
+git clone https://github.com/harmony-one/harmony-test.git
 cd harmony
 go mod tidy
 make
