@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
 # Install Go 1.24
-wget https://go.dev/dl/go1.24.4.linux-amd64.tar.gz
-tar xvzf go1.24.4.linux-amd64.tar.gz
+wget https://go.dev/dl/go1.24.11.linux-amd64.tar.gz
+tar xvzf go1.24.11.linux-amd64.tar.gz
 PATHGOBIN="${PWD}/go/bin"
 
 echo "export PATH=\"\$PATH:$PATHGOBIN\"" >> ~/.profile
